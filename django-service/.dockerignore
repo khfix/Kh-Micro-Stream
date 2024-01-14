@@ -1,0 +1,10 @@
+*.pyc
+.venv*
+.vscode
+htmlcov
+__pycache__
+db.sqlite3
+migrations/
+
+dist
+test.py

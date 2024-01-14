@@ -1,0 +1,12 @@
+#Api_gateway
+
+build:
+sudo docker build -t api-gateway .
+
+run: 
+sudo docker run -d --name api-gateway -p 80:80 api-gateway
+
+or 
+
+sudo docker run -p 80:80 api-gateway
+

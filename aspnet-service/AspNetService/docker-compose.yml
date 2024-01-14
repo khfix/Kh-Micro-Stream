@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  aspnetservice:
+    image: aspnetservice-image
+    ports:
+      - "8081:5232"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    depends_on:
+      - postgres  
+
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: khdev
+      POSTGRES_PASSWORD: Hh123456Hh$
+      POSTGRES_DB: kmsasp

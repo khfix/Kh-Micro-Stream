@@ -1,0 +1,9 @@
+
+#PostgreSQL
+
+1-Django Database : kmsdjango
+3-Asp.net Database : kmsasp
+
+Username : khdev / Password : Hh123456Hh$
+
+

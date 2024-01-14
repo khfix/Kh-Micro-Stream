@@ -1,0 +1,8 @@
+*.pyc
+.venv*
+.vscode
+.coverage
+htmlcov
+
+dist
+test.py
